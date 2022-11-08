@@ -5,7 +5,10 @@ let animals = [
     "frog",
     "beaver",
     "horse",
-    "basalisk",
+    "basilisk",
   ];
   
-let bListAnimals = // Your 'filter' code here.
+let bListAnimals = animals.filter((name)=>{
+  // Your 'filter' code here.
+  return name[0] == "b";
+});
